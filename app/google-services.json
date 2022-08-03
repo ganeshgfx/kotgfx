@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "726998173956",
+    "project_id": "jaga-fae3a",
+    "storage_bucket": "jaga-fae3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726998173956:android:5ab89361175849ecd72851",
+        "android_client_info": {
+          "package_name": "ganesh.gfx.kotgfx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726998173956-9scleenut2j9auf4oisqgvtl56gcdfjs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC12-4i9x35EHMyzLt8SfG3KJRA_LzXdFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726998173956-9scleenut2j9auf4oisqgvtl56gcdfjs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
