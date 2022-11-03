@@ -8,20 +8,26 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_gravity="center"
         android:layout_height="match_parent"
-        android:padding="16dp">
+        android:layout_gravity="center"
+        android:padding="16dp"
+        >
 
-        <Button
-            android:id="@+id/signup"
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            style="?attr/floatingActionButtonLargeStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Login"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/fab_margin"
+            android:contentDescription="X"
+            android:text="Sign in"
+            android:id="@+id/signup"
+            app:icon="@drawable/googleg_disabled_color_18"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-        />
+            app:layout_constraintTop_toTopOf="parent"
+            />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
